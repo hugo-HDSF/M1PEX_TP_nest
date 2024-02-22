@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  m1-pex-tp-nest:
+    container_name: m1-pex-tp-nest
+    image: m1-pex-tp-nest
+    env_file:
+      - ./.env
+    build:
+      context: ./
+    working_dir: /app
+    volumes:
+      - ./:/app:cached
+      - /app/node_modules
+    ports:
+      - "4000:4000"
