@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ab484699-ef8c-4a5b-96e8-1de8ca2bb9ef",
+    "name": "jupe",
+    "price": "850€",
+    "description": "beautifull jupe"
+  },
+  {
+    "id": "5d87387f-9efc-4e11-8172-dab9fa9df707",
+    "name": "pantalon",
+    "price": "950€",
+    "description": "beautifull pantalon"
+  },
+  {
+    "id": "165e8865-4056-4a14-9508-ef80c74288b8",
+    "name": "robe",
+    "price": "1050€",
+    "description": "beautifull robe"
+  },
+  {
+    "id": "165e8345-4fe6-4a23-9448-ef80c71220b8",
+    "name": "chemise",
+    "price": "750€",
+    "description": "beautifull chemise"
+  }
+]

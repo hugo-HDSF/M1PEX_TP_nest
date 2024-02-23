@@ -4,11 +4,10 @@ WORKDIR /app
 
 COPY /package*.json ./
 
-RUN npm i
-
 COPY . .
+
+RUN npm i
 
 EXPOSE 4000
 
-#CMD [ "http-server", "dist" ]
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "start:dev"]

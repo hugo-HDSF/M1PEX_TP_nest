@@ -1,5 +1,5 @@
-install -d:
-	docker-compose up -d
-
 install:
-	docker-compose up
+	docker compose up --build
+
+install -d:
+	docker compose up --build -d
