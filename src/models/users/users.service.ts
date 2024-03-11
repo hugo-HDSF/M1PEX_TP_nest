@@ -12,7 +12,7 @@ export class UsersService {
     private readonly userSerializer: UserSerializer,
   ) {}
 
-  connect(login: string, password: string): string {
+  connect(login: string, password: string): string | undefined {
     const user: User = this.usersRepository.connect(login, password);
     if (this.isAdmin(user)) {
       const serializedUser: string = this.userSerializer.serialize(user);
